@@ -55,7 +55,7 @@ homeTab.addEventListener('click', function(e){
         var aFgP = ((aFG / aFGA) * 100).toFixed(1);
         
         var aTitle = document.querySelector('.modal-title');
-        aTitle.textContent = data.gameboxscore.game.awayTeam.Abbreviation + '@' +data.gameboxscore.game.awayTeam.Abbreviation;
+        aTitle.textContent = data.gameboxscore.game.awayTeam.Abbreviation + ' @ ' +data.gameboxscore.game.homeTeam.Abbreviation;
 
         var td = document.createElement('td');
         td.className = "modalDataNames";
