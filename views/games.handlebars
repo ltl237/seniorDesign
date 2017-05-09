@@ -1,0 +1,43 @@
+<div class="topDisp">
+		<nav class="navbar navbar-default col-md-12 col-sm-12 col-xs-12">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<img width="50px;" height="50px;" style="margin-left: -20px; margin-right: 10px;" src="http://diylogodesigns.com/blog/wp-content/uploads/2016/06/nba-logo-transparent-png-logo-download.png">
+				</div>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="/">Home</a></li>
+					<li><a href="games">Games</a></li>
+					<li><a href="#">Video</a></li>
+					<li><a href="#">Standings</a></li>
+					<li><a href="teams">Teams</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div> <!-- topDisp -->
+
+<div class="background"></div>
+<div class="boxScoreContainer col-md-12">
+	
+	<div class="boxScore">
+		{{#each gameData}}
+		<table id={{this.game.awayTeam.Abbreviation}}-{{this.game.homeTeam.Abbreviation}} class="table col-md-3 scoreTables col-sm-4" style="width:200px;height: 100%;">
+			<thead>
+				<th>{{this.game.awayTeam.Abbreviation}}-{{this.game.homeTeam.Abbreviation}}</th>
+			</thead>
+			<tbody style="text-align: center;">
+				<tr class="awayPlayer">
+					<!-- <td class="playerName">name</td> -->
+				</tr>
+				<tr class="homePlayer">
+					<!-- <td class="playerName">name</td> -->
+				</tr>
+			</tbody>
+		</table>
+		{{/each}}
+	</div> <!--boxScore row -->
+
+	<script type="text/javascript" src="boxScore.js"></script>
+</div>
+
+
+

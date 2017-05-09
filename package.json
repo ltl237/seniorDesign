@@ -1,0 +1,22 @@
+{
+  "name": "seniorproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.0",
+    "body-parser": "^1.17.1",
+    "btoa": "^1.1.2",
+    "buffer": "^5.0.5",
+    "express": "^4.15.2",
+    "express-generator": "^4.14.1",
+    "express-handlebars": "^3.0.0",
+    "mongodb": "^2.2.24",
+    "path": "^0.12.7"
+  }
+}

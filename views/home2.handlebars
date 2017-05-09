@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<div class="topDisp">
+		<nav class="navbar navbar-default col-md-12 col-sm-12 col-xs-12">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<img width="50px;" height="50px;" style="margin-left: -20px; margin-right: 10px;" src="http://diylogodesigns.com/blog/wp-content/uploads/2016/06/nba-logo-transparent-png-logo-download.png">
+				</div>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="/">Home</a></li>
+
+					<li><a href="video">Video</a></li>
+
+					<li><a href="teams">Teams</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div> <!-- topDisp -->
+<div class="background"></div>
+<div class="allContent container col-md-12 col-sm-12 col-xs-12">
+		<div class="gameContainer col-md-8 col-sm-8 container-fluid">
+
+			<div class="gamesHeader">
+				<!-- <header>Box Scores <br>[3-24-17]</header> -->
+				<span id="spanDate"></span>
+			</div>
+
+			<div class="allGames row">
+				
+				{{#each gameData}}
+				<a href="">
+				<table id={{this.game.ID}} game={{this.game.awayTeam.Abbreviation}}-{{this.game.homeTeam.Abbreviation}} class="table col-md-3 gameTables col-sm-4" style="width:200px;">
+
+					<tbody style="text-align: center;">
+						<tr class="homeRow">
+							<td>{{this.game.homeTeam.Abbreviation}}</td>
+							<td class="homeScore"><!-- {{this.awayScore}} -->TBD</td>
+						</tr>
+						<tr class="timeRow">
+							<td>@</td>
+							<td class="timeTd">{{this.game.time}}</td>
+						</tr>
+						<tr class="awayRow">
+							<td>{{this.game.awayTeam.Abbreviation}}</td>
+							<td class="awayScore"><!-- {{this.homeScore}} -->TBD</td>
+						</tr>
+					</tbody>
+				</table>
+				</a>
+				{{/each}}
+
+				<div class="modal fade" id="myModal" role="dialog">
+				    <div class="modal-dialog">
+				    
+				      <!-- Modal content-->
+				      <div class="modal-content">
+				        <div class="modal-header">
+				          <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+				          <h4 class="modal-title"></h4>
+
+				        </div>
+				        <div class="modal-body mContent">
+				      		<div role="tabpanel">
+				      		<ul class="nav nav-tabs" role="tablist">
+				      			<li role="presentation" class="active" id="homeTabLi"><a href="#homeTab" aria-controls="homeTab" role="tab" data-toggle="tab">Home</a>
+				      			</li>
+				      			<li role="presentation" id="awayTabLi"><a href="#browseTab" aria-controls="awayTab" role="tab" data-toggle="tab">Away</a>
+				      			</li>
+				      		</ul>
+				      		<div class="tab-content">
+		                        <div role="tabpanel" class="tab-pane active" id="uploadTab">
+		                        	<table id="innerModal" class="table col-md-3 scoreTables col-sm-4" >
+										<thead>
+											<!-- <th>{{this.game.awayTeam.Abbreviation}}-{{this.game.homeTeam.Abbreviation}}</th> -->
+											<th>
+												<tr id="categories">
+													<td>Name</td>
+													<td>Pts</td>
+													<td>FG% (M/A)</td>
+													<!-- <td>FGM</td>
+													<td>FGA</td> -->
+													<td>3P% (M/A)</td>
+													<!-- <td>3PA</td> -->
+													<td>FT% (M/A)</td>
+													<!-- <td>FTA</td> -->
+												</tr>
+											</th>
+										</thead>
+										<tbody style="text-align: center;">
+											<tr class="awayPlayer">
+												<!-- <td class="playerName">name</td> -->
+											</tr>
+											<tr class="homePlayer">
+												<!-- <td class="playerName">name</td> -->
+											</tr>
+										</tbody>
+									</table>
+		                        </div>
+		                        <div role="tabpanel" class="tab-pane" id="awayTab">awayTeam</div>
+		                    </div>
+							
+						    </div> <!-- tabpanel -->
+				        </div> <!-- modal body-->
+				      </div>
+			      </div>
+			    </div>
+
+			</div> <!--allGAmes -->
+				
+		</div> <!--gameContainer -->
+
+		<div class="videoContainer row col-md-8">
+			<header style="vertical-align: middle;">
+				<h3>Highlights & Postgame</h3>
+			</header> 
+				<div class="row" style="position: relative;text-align: center;">
+					<a href=""><iframe class="homeVids" src="https://www.youtube.com/embed/qrhkd4eV82k" frameborder="0" allowfullscreen></iframe></a>
+					<a href=""><iframe class="homeVids" src="https://www.youtube.com/embed/9Cz2qBHSNXo" frameborder="0" allowfullscreen></iframe></a>
+					<a href=""><iframe class="homeVids" src="https://www.youtube.com/embed/z4N9Q-r9Q9E" frameborder="0" allowfullscreen></iframe></a>
+				</div>
+		</div> <!--videocontainer-->		
+
+		<div class="newsContainer col-md-3 col-md-offset-8 col-sm-offset-1 col-sm-3">
+			<header style="vertical-align: middle;">
+				<h3>Top Headlines</h3>
+			</header> 
+			<div class="newsBox row"> 
+				 <a href="#"><img  src="news1.png"></a>
+			</div>
+			<div class="newsBox row"> 
+				 <a href="#"><img  src="news2.png"></a>
+			</div>
+			
+			
+		</div> <!-- newsContainer-->
+
+		
+	</div> <!--allContainer -->
+	<script type="text/javascript" src="datescript.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<!-- <script type="text/javascript" src="boxScore.js"></script> -->
+</body>
+</html>

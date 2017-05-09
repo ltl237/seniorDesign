@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<div class="topDisp">
+		<nav class="navbar navbar-default col-md-12 col-sm-12 col-xs-12">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<img width="50px;" height="50px;" style="margin-left: -20px; margin-right: 10px;" src="http://diylogodesigns.com/blog/wp-content/uploads/2016/06/nba-logo-transparent-png-logo-download.png">
+				</div>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="/">Home</a></li>
+					<li><a href="#">Games</a></li>
+					<li><a href="#">Video</a></li>
+					<li><a href="#">Standings</a></li>
+					<li><a href="teams">Teams</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div> <!-- topDisp -->
+<div class="background"></div>
+<div class="allContent container col-md-12 col-sm-12 col-xs-12">
+		<div class="gameContainer col-md-8 col-sm-7 row container-fluid">
+
+			<div class="gamesHeader">
+				<!-- <header>Box Scores <br>[3-24-17]</header> -->
+				<span id="spanDate"></span>
+			</div>
+
+			<div class="allGames">
+			<div class="games g1 col-md-4 col-sm-4  container">
+				<div class="frontScore" >
+
+					<table class="table table-bordered homeTable">
+		                <tbody>
+		                  <tr>
+		                    <td>Golden State<br> Warriors</td>
+		                    <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Golden_State_Warriors_logo.svg/838px-Golden_State_Warriors_logo.svg.png"></td>
+		                    <td style="vertical-align: middle;">105</td>
+		                  </tr>
+		                  <div class="secondRow">
+		                  <tr>
+		                    <td>Cleveland <br>Cavaliers</td>
+		                    <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Golden_State_Warriors_logo.svg/838px-Golden_State_Warriors_logo.svg.png"></td>
+		                    <td>103</td>
+		                  </tr>
+		                  </div>
+		                </tbody>
+
+		            </table>
+				</div>
+				<div class="hiddenScore">
+				<a href="#">
+					<table class="table table-bordered" style="text-align: center;">
+	                <thead>
+	                </thead>
+	                <tbody>
+	                  <tr>
+	                    <td>Stephen<br> Curry</td>
+	                    <td>32P</td>
+	                    <td>6A</td>
+	                    <td>2R</td>
+	                  </tr>
+	                  <tr>
+	                    <td>LeBron<br> James</td>
+	                    <td>18 pts</td>
+	                    <td>12 ast</td>
+	                    <td>10 reb</td>
+	                  </tr>
+	                </tbody>
+	              </table>
+	              </a>
+				</div>
+			</div>
+
+			<div class="games g1  col-md-4 col-sm-6  container">
+				<div class="frontScore">
+					<table class="table table-bordered">
+	                <tbody>
+	                  <tr>
+	                    <td>Golden State<br> Warriors</td>
+	                    <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Golden_State_Warriors_logo.svg/838px-Golden_State_Warriors_logo.svg.png"></td>
+	                    <td style="vertical-align: middle;">105</td>
+	                  </tr>
+	                  <tr>
+	                    <td>Cleveland <br>Cavaliers</td>
+	                    <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Golden_State_Warriors_logo.svg/838px-Golden_State_Warriors_logo.svg.png"></td>
+	                    <td>103</td>
+	                  </tr>
+	                </tbody>
+		            </table>
+				</div>
+
+				
+
+			</div>
+			<div class="games g1  col-md-4 col-sm-6  container">
+				<div class="frontScore">
+					<table class="table table-bordered">
+	                <tbody>
+	                  <tr>
+	                    <td>Golden State<br> Warriors</td>
+	                    <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Golden_State_Warriors_logo.svg/838px-Golden_State_Warriors_logo.svg.png"></td>
+	                    <td style="vertical-align: middle;">105</td>
+	                  </tr>
+	                  <tr>
+	                    <td>Cleveland <br>Cavaliers</td>
+	                    <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Golden_State_Warriors_logo.svg/838px-Golden_State_Warriors_logo.svg.png"></td>
+	                    <td>103</td>
+	                  </tr>
+	                </tbody>
+	                
+		              </table>
+				</div>
+
+			</div>
+			
+			<div class="games g1  col-md-2 col-sm-6  container">
+				<div class="frontScore">
+					<table class="table table-bordered">
+	                <tbody>
+	                  <tr>
+	                    <td>Golden State<br> Warriors</td>
+	                    <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Golden_State_Warriors_logo.svg/838px-Golden_State_Warriors_logo.svg.png"></td>
+	                    <td style="vertical-align: middle;">105</td>
+	                  </tr>
+	                  <tr>
+	                    <td>Cleveland <br>Cavaliers</td>
+	                    <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Golden_State_Warriors_logo.svg/838px-Golden_State_Warriors_logo.svg.png"></td>
+	                    <td>103</td>
+	                  </tr>
+	                </tbody>
+	                
+		              </table>
+				</div>
+
+			</div>
+			<div class="games g1  col-md-2 col-sm-6  container">
+				<div class="frontScore">
+					<table class="table table-bordered">
+	                <tbody>
+	                  <tr>
+	                    <td>Golden State<br> Warriors</td>
+	                    <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Golden_State_Warriors_logo.svg/838px-Golden_State_Warriors_logo.svg.png"></td>
+	                    <td style="vertical-align: middle;">105</td>
+	                  </tr>
+	                  <tr>
+	                    <td>Cleveland <br>Cavaliers</td>
+	                    <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Golden_State_Warriors_logo.svg/838px-Golden_State_Warriors_logo.svg.png"></td>
+	                    <td>103</td>
+	                  </tr>
+	                </tbody>
+	                
+		              </table>
+				</div>
+
+			</div>
+			<div class="games g1  col-md-2 col-sm-6  container">
+				<div class="frontScore">
+					<table class="table table-bordered">
+	                <tbody>
+	                  <tr>
+	                    <td>Golden State<br> Warriors</td>
+	                    <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Golden_State_Warriors_logo.svg/838px-Golden_State_Warriors_logo.svg.png"></td>
+	                    <td style="vertical-align: middle;">105</td>
+	                  </tr>
+	                  <tr>
+	                    <td>Cleveland <br>Cavaliers</td>
+	                    <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Golden_State_Warriors_logo.svg/838px-Golden_State_Warriors_logo.svg.png"></td>
+	                    <td>103</td>
+	                  </tr>
+	                </tbody>
+	                
+		              </table>
+				</div>
+			</div>
+			<div class="games g1  col-md-2 col-sm-6  container">
+				<div class="frontScore">
+					<table class="table table-bordered">
+	                <tbody>
+	                  <tr>
+	                    <td>Golden State<br> Warriors</td>
+	                    <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Golden_State_Warriors_logo.svg/838px-Golden_State_Warriors_logo.svg.png"></td>
+	                    <td style="vertical-align: middle;">105</td>
+	                  </tr>
+	                  <tr>
+	                    <td>Cleveland <br>Cavaliers</td>
+	                    <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Golden_State_Warriors_logo.svg/838px-Golden_State_Warriors_logo.svg.png"></td>
+	                    <td>103</td>
+	                  </tr>
+	                </tbody>
+	                
+		              </table>
+				</div>
+			</div>
+			<div class="games g1  col-md-2 col-sm-6  container">
+				<div class="frontScore">
+					<table class="table table-bordered">
+	                <tbody>
+	                  <tr>
+	                    <td>Golden State <br> Warriors</td>
+	                    <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Golden_State_Warriors_logo.svg/838px-Golden_State_Warriors_logo.svg.png"></td>
+	                    <td style="vertical-align: middle;">105</td>
+	                  </tr>
+	                  <tr>
+	                    <td>Cleveland <br>Cavaliers</td>
+	                    <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Golden_State_Warriors_logo.svg/838px-Golden_State_Warriors_logo.svg.png"></td>
+	                    <td>103</td>
+	                  </tr>
+	                </tbody>
+	                
+		              </table>
+				</div>
+			</div>
+			<div class="games g1  col-md-2 col-sm-6  container">
+				<div class="frontScore">
+					<table class="table table-bordered">
+	                <tbody>
+	                  <tr>
+	                    <td>Golden State<br> Warriors</td>
+	                    <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Golden_State_Warriors_logo.svg/838px-Golden_State_Warriors_logo.svg.png"></td>
+	                    <td style="vertical-align: middle;">105</td>
+	                  </tr>
+	                  <tr>
+	                    <td>Cleveland <br>Cavaliers</td>
+	                    <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Golden_State_Warriors_logo.svg/838px-Golden_State_Warriors_logo.svg.png"></td>
+	                    <td>103</td>
+	                  </tr>
+	                </tbody>
+	                
+		              </table>
+				</div>
+			</div>
+			</div> <!--row -->
+		</div>
+
+
+
+		<div class="newsContainer col-md-3 col-md-offset-1  col-sm-offset-1 col-sm-4">
+			<header style="vertical-align: middle;">
+				<h3>Top Headlines</h3>
+			</header> 
+			<div class="newsBox row"> 
+				 <a href="#"><img  src="mvp.png"></a>
+			</div>
+			<div class="newsBox row"> 
+				 <a href="#"><img  src="vote.png"></a>
+			</div>
+			<div class="newsBox row"> 
+				 <a href="#"><img  src="shaq.png"></a>
+			</div>
+			
+			<!-- <div class="newsList container-fluid">
+				<ul>
+					<li><a href="#">OKC earns 5th seed in the Western Conference!</a></li>
+					<li><a href="#">James Harden records 4th 40 point triple-double!</a></li>
+					<li><a href="#">Kyrie Irving & D'Angelo Russell duel it out for 40 points each</a></li>
+				</ul>
+			</div> -->
+		</div>
+		
+	</div> 
+	<script type="text/javascript" src="datescript.js"></script>
+
+</body>
+</html>
