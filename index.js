@@ -60,6 +60,7 @@ app.get('/teams', function(req,res){
         var easternData = response.data.conferenceteamstandings.conference[0].teamentry;
         var westernData = response.data.conferenceteamstandings.conference[1].teamentry;
         var eastWins = easternData[0].stats.Wins['#text'];
+        console.log(eastWins);
         // console.log(eastWins);
         var eastLosses = easternData[0].stats.Losses['#text'];
 

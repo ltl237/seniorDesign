@@ -55,7 +55,8 @@ homeTab.addEventListener('click', function(e){
         var aFgP = ((aFG / aFGA) * 100).toFixed(1);
         
         var aTitle = document.querySelector('.modal-title');
-        aTitle.textContent = data.gameboxscore.game.awayTeam.Abbreviation + ' @ ' +data.gameboxscore.game.homeTeam.Abbreviation;
+        // aTitle.textContent = data.gameboxscore.awayTeam.awayTeamStats.Pts['#text'] +" "+ data.gameboxscore.game.awayTeam.Abbreviation + ' @ ' +data.gameboxscore.homeTeam.homeTeamStats.Pts['#text'] +" "+ data.gameboxscore.game.homeTeam.Abbreviation;
+        // aTitle.textContent = data.gameboxscore.game.awayTeam.Abbreviation + ' @ ' + data.gameboxscore.game.homeTeam.Abbreviation;
 
         var td = document.createElement('td');
         td.className = "modalDataNames";
@@ -241,7 +242,7 @@ var today = new Date();
         var aFgP = ((aFG / aFGA) * 100).toFixed(1);
         
         var aTitle = document.querySelector('.modal-title');
-        aTitle.textContent = data.gameboxscore.game.awayTeam.Abbreviation + ' @ ' +data.gameboxscore.game.homeTeam.Abbreviation;
+        aTitle.textContent = data.gameboxscore.awayTeam.awayTeamStats.Pts['#text'] +" "+ data.gameboxscore.game.awayTeam.Abbreviation + ' @ ' +data.gameboxscore.homeTeam.homeTeamStats.Pts['#text'] +" "+ data.gameboxscore.game.homeTeam.Abbreviation;
 
 
         var td = document.createElement('td');
